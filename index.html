@@ -1,0 +1,24 @@
+---
+layout: default
+title: Homepage
+---
+
+<div id="home">
+  <div id="ibacordotcom-content">
+			<div class="ibacordotcom-unit ibacordotcom-vid-kenca">
+				<div class="ibacordotcom_vid_play"></div>
+			</div>
+			<div class = "ibacordotcom-unit ibacordotcom-vid-katuhu">
+				<div class="ibacordotcom_youtube_channels"></div>
+			</div>
+		</div>
+</div>
+<script src="{{ site.baseurl }}/js/youtube.js"></script>
+<script>
+			ibacor_ycp(
+				channels_name = 'meanelephant', //example
+				channels_title = 'Mean Elephant',
+				type = 'forUsername', // type='forUsername' (by user) or type='id' (by channel)
+				apikey = 'AIzaSyAz7ZXFcTou8WeSlUJanYycy1e9BtzlIEw'
+			);
+</script>
