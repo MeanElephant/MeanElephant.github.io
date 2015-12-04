@@ -1,3 +1,11 @@
+# Dependencies
+markdown: redcarpet
+redcarpet:
+  extensions: [tables]
+exclude: [vendor]
+gems:
+  - jekyll-sitemap
+  - jekyll-feed
 # Title of your blog; shows in the header
 name: "Mean Elephant"
 
@@ -26,13 +34,6 @@ instagram: m3xm
 
 #ga_domain: m3xm.github.io
 #ga_tracking_id: UA-47727049-1
-
-# Other (refer to http://jekyllrb.com/docs/home/ for further details on the below)
-
-markdown: kramdown
-permalink: pretty
-highlighter: pygments
-#exclude: [vendor]
 
 paginate: 10
 paginate_path: "/page/:num"
